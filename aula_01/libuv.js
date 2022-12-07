@@ -1,6 +1,6 @@
 function a(){
-    b()
-    console.log('A')
+    b();
+    console.log('A');
     return;
 }
 function b(){
@@ -9,7 +9,7 @@ function b(){
     return;
 }
 function c(){
-    console.log('C')
+    console.log('C');
     return;
 }
 
