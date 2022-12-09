@@ -1,0 +1,18 @@
+{
+  "name": "api-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Henrique Backes",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^3.1.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
