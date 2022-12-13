@@ -2,8 +2,12 @@ const { json } = require('body-parser');
 const express = require('express');
 const { read } = require('fs');
 const cervejas = require('./cervejas');
-
+const cors = require('cors');
 const app = express();
+
+app.use(cors({
+    origin:'*'
+}));
 app.use(express.json());
 
 app.get('/', function(req,res){
